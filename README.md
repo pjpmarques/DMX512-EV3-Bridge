@@ -8,9 +8,10 @@ In terms of hardware, it uses a [SparkFun ESP32 DMX to LED Shield](https://www.s
 
 It works as follows:
 
-* Registers on the DMX bus as a receiver. The channel it listens to is hardcoded in the source code (default 127).
-* If it detects a value above or below a certain threshold (127) it writes a HIGH or LOW value to an output pin D2 of the DMX shield. This corresponds to pin 27 of the ESP32 device.
+* Registers on the DMX bus as a receiver. The channel it listens to is hardcoded in the source code.
+* If it detects a value above or below a certain threshold it writes a HIGH or LOW value to an output pin D0 of the DMX shield.
 * All detected transitions on the DMX bus are written to the EV3 shield as described above as well an on the ESP32 serial port.
+* Normally, between the DMX shield and the EV3 I put a small resistor circuit so that the bridge is seen as a touch sensor. But it doesn't need to be this way.
 
 License
 ===
