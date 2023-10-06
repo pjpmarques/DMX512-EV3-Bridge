@@ -15,6 +15,9 @@ It works as follows:
 * The internal RGB LED of the ESP32 is used to show status. RED means that no data is being read from the DMX bus. Blicking between GREEN, BLUE and RED means that data is being produced.
 * Also, the BLUE LED of the ESP32 is used to show if we are writing a zero or one to the D0 line of the shield.
 
+Here's an image of the entire aparatus:
+![DMX512-EV3 Bridge in use](imgs/ClockProject.jpeg)
+
 License
 ===
 [Apache 2.0](LICENSE.txt)
