@@ -16,7 +16,11 @@ It works as follows:
 * Also, the BLUE LED of the ESP32 is used to show if we are writing a zero or one to the D0 line of the shield.
 
 Here's an image of the entire aparatus:
+
 ![DMX512-EV3 Bridge in use](imgs/ClockProject.jpeg)
+
+Please also refer to this project:
+[EV3 Clock Controller](https://github.com/pjpmarques/EV3-ClockController)
 
 License
 ===
