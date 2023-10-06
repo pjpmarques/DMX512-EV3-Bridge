@@ -20,7 +20,6 @@ public:
 
     int update();
     uint8_t read(int channel);
-    void set_timeout(unsigned milisecconds);
 
 private:
     HardwareSerial uart;

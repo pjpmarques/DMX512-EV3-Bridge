@@ -16,8 +16,6 @@ DMX::DMX() : DMX(DMX_DEFAULT_UART, DMX_RX_PIN, DMX_TX_PIN, DMX_EN_PIN)
 
 int DMX::update()
 {
-  unsigned long t0 = millis();
-
   uart.begin(DMX_BAUD, SERIAL_8N2, rx_pin, tx_pin);
   uart.setTimeout(DMX_TIMEOUT);
   digitalWrite(en_pin, LOW);
