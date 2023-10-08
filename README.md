@@ -19,6 +19,10 @@ Here's an image of the entire aparatus:
 
 ![DMX512-EV3 Bridge in use](imgs/ClockProject.jpeg)
 
+You can see it in action here:
+
+https://github.com/pjpmarques/EV3-ClockController/assets/782106/8a504687-f5b2-4b46-82bb-65de99f55812
+
 Please also refer to this project:
 [EV3 Clock Controller](https://github.com/pjpmarques/EV3-ClockController)
 
