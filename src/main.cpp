@@ -9,7 +9,7 @@
 #define BAUD_RATE             115200        // Of the serial port
 #define INTERNAL_LED_PIN      13            // For signaling what is being sent to the EV3 (single colour/simple LED)
 #define EV3_PIN               19            // This pin is connected to the analog pin of EV3 for signaling if the clock should be advanced
-#define CLOCK_CHANNEL         1             // Channel that the DMX controller will use to control the clock -- This is PIN 13 on the ESP32 and DATA0 on the shield
+#define CLOCK_CHANNEL         500           // DMX Channel that the DMX controller will use to control the clock -- This is mapped to PIN 13 on the ESP32 and DATA0 on the shield
 #define THRESHOLD             50            // Threshold of the value received to either decide to send HIGH or LOW to the EV3 brick
 
 #define RGB_LED_PIN           2             // Internal RBG LED PIN, addressable by 
